@@ -43,6 +43,7 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 padding: 20px;
+color: #0c0d11;
 }
 
 .logo{
@@ -55,6 +56,7 @@ ul{
     list-style: none;
     display: flex;
     font-family: UbuntuBold;
+    color: #0c0d11;
 }
 
 li{
@@ -64,6 +66,7 @@ li{
 
 a{
     text-decoration: none;   
+    color: #424551;
 }
 
 .contacts{
@@ -79,6 +82,10 @@ a{
     font-family: UbuntuBold;
     display: flex;
     flex-direction: column;
+}
+
+.contacts-link{
+margin-right: 30px;
 }
 
 .imgc{
@@ -282,14 +289,19 @@ button{
         height: 1000px;
     }
 
+    .mission-list .item{
+        margin: 0px;
+    }
+
     .item{
         position: relative;
+        width: 285px;
     }
 
     .item:not(:last-child)::after{
         content: "";
         position: absolute;
-        right: -70px;
+        right: -42px;
         top: 0;
         width: 1px;
         height: 100%;
