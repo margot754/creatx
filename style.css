@@ -8,6 +8,7 @@
     font-family: LatoBold;
     src: url(fonts/LatoBold.woff);
 }
+
 @font-face {
     font-family: UbuntuBold;
     src: url(fonts/UbuntuBold.woff);
@@ -18,40 +19,39 @@
     src: url(fonts/UbuntuRegular.woff);
 }
 
-body{
+
+body {
     margin: 0px;
     font-family: ubunturegular;
 }
 
-header{
+header {
     border-bottom: 1px solid black;
     height: 90px;
 }
 
-.co{
+.co {
     display: flex;
 }
 
-.container{ 
-   max-width: 1260px;
-   margin: 0 auto;
-   padding: 0 15px;
+.container {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
-.header-cont{
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding: 20px;
-color: #0c0d11;
+.header-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: #0c0d11;
 }
 
-.logo{
-
-}
+.logo {}
 
 
-ul{
+ul {
     padding: 0px;
     list-style: none;
     display: flex;
@@ -59,47 +59,47 @@ ul{
     color: #0c0d11;
 }
 
-li{
+li {
     margin-right: 40px;
 }
 
 
-a{
-    text-decoration: none;   
+a {
+    text-decoration: none;
     color: #424551;
 }
 
-.contacts{
+.contacts {
     display: flex;
-    
+
 }
 
-.contic{
+.contic {
     display: flex;
 }
 
-.link{
+.link {
     font-family: UbuntuBold;
     display: flex;
     flex-direction: column;
 }
 
-.contacts-link{
-margin-right: 30px;
+.contacts-link {
+    margin-right: 30px;
 }
 
-.imgc{
-   margin-right: 10px; 
+.imgc {
+    margin-right: 10px;
 }
 
-.hero{
-    height:988px;
+.hero {
+    height: 988px;
     background-image: url(img/bg-image.svg);
-    
+
 }
 
 
-.main-tittle{
+.main-tittle {
     margin: 0;
     font-weight: 700;
     font-size: 72px;
@@ -110,16 +110,16 @@ margin-right: 30px;
     color: white;
 }
 
-.primary{
+.primary {
     color: #f35a30;
 }
 
-.hero-content{
+.hero-content {
     max-width: 600px;
     padding-top: 220px;
 }
 
-.descr{
+.descr {
     margin-bottom: 60px;
     font-size: 20px;
     color: white;
@@ -127,11 +127,11 @@ margin-right: 30px;
     font-family: UbuntuRegular;
 }
 
-.btn{
+.btn {
     margin: 0;
     margin-right: 15px;
     padding: 1px 40px;
-    background-color: rgba(1,1,1,0);
+    background-color: rgba(1, 1, 1, 0);
     border-radius: 4px;
     border: 1px solid #fff;
     text-transform: uppercase;
@@ -144,7 +144,7 @@ margin-right: 30px;
 }
 
 
-.btn-primary{
+.btn-primary {
 
     margin: 0;
     padding: 1px 40px;
@@ -158,19 +158,19 @@ margin-right: 30px;
     font-family: UbuntuRegular;
     letter-spacing: 0.5px;
     color: white;
-    
+
 }
 
-.video-block{
+.video-block {
     position: relative;
     overflow: hidden;
     border-radius: 4px;
     height: 500px;
     z-index: 1;
-    
+
 }
 
-.video-block::before{
+.video-block::before {
     content: "";
     position: absolute;
     left: 0;
@@ -181,33 +181,33 @@ margin-right: 30px;
     background-color: rgba(#0c0d11, 0.9);
 }
 
-.about-video{
-    display:block;
+.about-video {
+    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.about{
+.about {
     height: 1000px;
 }
 
-svg{
+svg {
     width: 26px;
     height: 26px;
 }
 
-.tittle-about{
-margin: 0px;
-font-weight: 700;
-font-size: 46px;
-text-align: center;
-padding-top: 120px;
-margin-bottom: 25px;
+.tittle-about {
+    margin: 0px;
+    font-weight: 700;
+    font-size: 46px;
+    text-align: center;
+    padding-top: 120px;
+    margin-bottom: 25px;
 
 }
 
-.about-descr{
+.about-descr {
     margin: 0px;
     font-size: 18px;
     color: grey;
@@ -215,10 +215,10 @@ margin-bottom: 25px;
     margin-bottom: 60px;
 }
 
-.playmm{
+.playmm {
     margin: 0;
     padding: 0;
-    background-color: rgba(1,1,10,0);
+    background-color: rgba(1, 1, 10, 0);
     border: 0;
     position: absolute;
     left: 50%;
@@ -226,25 +226,25 @@ margin-bottom: 25px;
     transform: translate(-50%, -50%);
 }
 
-svg{
+svg {
     width: 100%;
     height: 50px;
 }
 
-button{
+button {
     margin: 0;
     padding: 0;
-    background-color: rgba(1,1,10,0);
+    background-color: rgba(1, 1, 10, 0);
     border: 0;
 }
 
-.muted{
- position: absolute;
- left: 32px;
- bottom: 32px;
- z-index: 10;
- background-color: rgba(1,1,1,0.12);
- border-radius: 180px;
+.muted {
+    position: absolute;
+    left: 32px;
+    bottom: 32px;
+    z-index: 10;
+    background-color: rgba(1, 1, 1, 0.12);
+    border-radius: 180px;
 }
 
 .muted svg {
@@ -253,7 +253,7 @@ button{
     padding: 10px;
 }
 
-.mission .tittle{
+.mission .tittle {
 
     margin: 0px;
     font-weight: 700;
@@ -261,53 +261,160 @@ button{
     text-align: center;
     margin-top: 12px;
     margin-bottom: 25px;
-    
-    }
 
-    .mission .descr{
+}
 
-        margin: 0px;
+.mission .descr {
+
+    margin: 0px;
     font-size: 18px;
     color: grey;
     text-align: center;
     margin-bottom: 60px;
-    }
+}
 
-    .mission-list{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 94px;
-        text-align: center;
-    }
+.mission-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 188px;
+    text-align: center;
+
+}
+
+.mission-descr {
+
+    color: gray;
+    font-family: ubunturegular;
+}
+
+.mission {
+    height: 600px;
+}
+
+.mission-list .item {
+    margin: 0px;
+
+}
+
+.item {
+    position: relative;
+
+
+}
+
+.item:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: -94px;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background-image: url("img/divider.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.services .tittle {
+
+    margin: 0px;
+    font-weight: 700;
+    font-size: 46px;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 25px;
+    padding-top: 100px;
+
+}
+
+.services .descr {
+
+    margin: 0px;
+    font-size: 18px;
+    color: grey;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.services {
+    background-image: url(img/service.jpg);
+}
+
+.know-form {
+    position: relative;
+    top: 92px;
+    background: #FFFFFF;
+
+padding: 48px 60px;;
+    box-shadow: 
+    0px 80px 80px -20px rgba(154, 156, 165, 0.08), 
+    0px 30px 24px -10px rgba(154, 156, 165, 0.05), 
+    0px 12px 10px -6px rgba(154, 156, 165, 0.04), 
+    0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+    border-radius: 4px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    margin-right: 24px;
+    ;
+
+}
+
+
+.content-form {
+    display: flex;
+    align-items: end;
+
+}
+
+input {
+    border: 1px solid #d7dadd;
+    border-radius: 4px;
+    width: 260px;
+    height: 44px;
+    background: #f4f5f7;
+    padding-left: 16px;
+
+}
+
+.form-field1 {
+    flex-grow: 1;
+
+}
+
+.input-big {
+    width: 100%;
+}
+
+.btn-form {
+    margin: 0;
+    padding: 15px 49px;
+    background-color: #f35a30;
+    border-radius: 4px;
+    border: 0px solid #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+
+    font-family: UbuntuRegular;
+    letter-spacing: 0.5px;
+    color: white;
+
+}
+
+.know-form .tittle{
+    margin: 0px;
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 32px;
     
-    .mission-descr{
-        color: gray;
-        font-family: ubunturegular ;
-    }
 
-    .mission{
-        height: 1000px;
-    }
+}
 
-    .mission-list .item{
-        margin: 0px;
-    }
-
-    .item{
-        position: relative;
-        width: 285px;
-    }
-
-    .item:not(:last-child)::after{
-        content: "";
-        position: absolute;
-        right: -42px;
-        top: 0;
-        width: 1px;
-        height: 100%;
-        background-image: url("img/divider.svg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        
-    }
+.form-caption{
+    margin-bottom: 10px;
+}
